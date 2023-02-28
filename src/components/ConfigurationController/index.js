@@ -17,12 +17,12 @@ const ConfigurationController = () => (
         onToggleShowContent()
       }
 
-      const onChangeRightNavbar = event => {
-        onToggleShowRightNavbar(event.target.value)
+      const onChangeRightNavbar = () => {
+        onToggleShowRightNavbar()
       }
 
-      const onChangeLeftNavbar = event => {
-        onToggleShowLeftNavbar(event.target.value)
+      const onChangeLeftNavbar = () => {
+        onToggleShowLeftNavbar()
       }
 
       return (
